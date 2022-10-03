@@ -5,15 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./src/style.scss">
-    <title>Document</title>
+    <script defer src="src/index.js"></script>
+    <script defer src="src/canvas.js"></script>
+    <title>eSkAPP-Reincent</title>
 </head>
 
 <body>
+
+    <!-- header -->
+    <header class="d-flex justify-content-center py-3 MENUBAR">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+    </header>
+
+
+    <section class="mainscreen" id="mainscreen">
+        <canvas class="headerBackground">
+
+
+        </canvas>
+        <div class="mainholder  bg-dark p-0" id="mainholder" style="width: 100%; height:100vh;">
+            <div class="d-flex justify-content-evenly">
+                <div class="col-8 container-fluid textholder p-5 m-5">
+                    <h1 class="display-5 fw-bold text-light py-lg-5">eSchoolApp</h1>
+                    <p class="col-md-8 fs-4 text-light">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                    <button class="btn btn-primary btn-lg" type="button">Example button</button>
+                </div>
+                <div class="col-4 ">
+                    <div class="mainimgboxheader container-fluid" id="mainimgboxheader">
+                        <img src="./assets/app-svgrepo-com.svg" alt="" class="img-box2 icoAround">
+                        <img src="./assets/LOGO final.png" alt="" class="img-box1 main-logo" style="width: 100px; height:auto;">
+                        <img src="./assets/nfc-svgrepo-com.svg" alt="" class="img-box4  icoAround">
+                        <img src="./assets/tech_rfid_icon_158141.svg" alt="" class="img-box3  icoAround">
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </section>
 
 </body>
 

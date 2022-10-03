@@ -1,0 +1,26 @@
+:root {
+    /* CSS HEX */
+    --light-cornflower-blue: #8ecae6ff;
+    --blue-green: #219ebcff;
+    --prussian-blue: #023047ff;
+    --selective-yellow: #ffb703ff;
+    --tangerine: #fb8500ff;
+    --paed: 10px;
+    --maar: 5px;
+    --board: 10%;
+}
+
+.icoAround {
+    width: 50px;
+    height: auto;
+}
+
+.mainholder {
+    background-color: var(--light-cornflower-blue);
+}
+
+.headerBackground {
+    background-color: var(--prussian-blue);
+    width: 100vw;
+    height: auto;
+}
